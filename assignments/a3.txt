@@ -1,1 +1,0 @@
-Learn the putput formatting for strings and lists 

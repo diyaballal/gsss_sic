@@ -8,6 +8,9 @@ Farmer problem.
 * Check if a number is Perfect Square
 Check if a year is Leap year
 
+************************************
+
+
 DAY2:
 Problems on Loops:
 * implement range function
@@ -23,3 +26,24 @@ Accept a number and implement following programs:
 	3. Find 2nd smallest digit in the number.
 	4. Find 2nd biggest digit and also check if 2nd biggest digit is not possible to be found.
 	5. Find sum of composite digits of the number.
+
+Questions:
+Q1. How floating point numbers are stored using IEEE standards ?
+A: defines a format for representing real numbers using bits
+This format divides a fixed number of bits into three components: a sign bit, an exponent, and a mantissa
+
+Q2. Which are the 2 most important operators that are sufficient to use amongst all 6 relational operators? 
+A: selection and join
+
+******************************************************
+
+DAY3:
+Questions:
+Q1. Learn the putput formatting for strings and lists 
+Q2. Why is python we do not have increment and decrement operation?
+Q3. Learn about __main__ in python
+Q4. What is pip 3 and pythonic ?
+Q5. Can we modify a list that is inside a tuple ?
+Q6. How to pass command line arguement into my_range() function
+Q7. Why do we need the file name in argv? What is its purpose and use ?
+Q8. Why in python there is no implicit typecasting?

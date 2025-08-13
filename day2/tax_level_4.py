@@ -1,3 +1,6 @@
-import tax_level_3 as t3,tax_level_1 as tax_level_1
+import tax_level3 as t3, tax_level1 as t1
 
-net_annual_salary=t1.gross_anual_salary
+net_annual_salary = t1.gross_annual_salary - t3.total_tax_amount
+print(f'Annual Gross Salary = {t1.gross_annual_salary}')
+print(f'Total Tax Amount = {t3.total_tax_amount}')
+print(f'Net Annual Salary = {net_annual_salary}')

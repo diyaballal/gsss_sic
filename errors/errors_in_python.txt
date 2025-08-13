@@ -4,4 +4,5 @@ Asking python to do something it cannot do --> Error
 2.NameError: num=50; print n but n is not defined.
 3.IndexError: printing 3rd element when there is none.
 4.ValueError: try to cast some value into another type but it is not possible; ex: converting the file path into an integer; num=int(sys.argv[0]) here we trying to convert math_table as an integer which is not possible 
-5.
+5.TypeError: range expected ; for i in range() ; range expected at least 3 elements ; for i in range(1,2,3,4)
+6.ZeroDivisionError: 50//0
