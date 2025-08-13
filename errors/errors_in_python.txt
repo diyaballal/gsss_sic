@@ -1,0 +1,7 @@
+Asking python to do something it cannot do --> Error
+
+1.SyntaxError: n=0o87; 8 cannot be included in octal.
+2.NameError: num=50; print n but n is not defined.
+3.IndexError: printing 3rd element when there is none.
+4.ValueError: try to cast some value into another type but it is not possible; ex: converting the file path into an integer; num=int(sys.argv[0]) here we trying to convert math_table as an integer which is not possible 
+5.

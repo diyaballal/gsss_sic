@@ -1,0 +1,3 @@
+How floating point numbers are stored using IEEE standards ?
+defines a format for representing real numbers using bits
+This format divides a fixed number of bits into three components: a sign bit, an exponent, and a mantissa

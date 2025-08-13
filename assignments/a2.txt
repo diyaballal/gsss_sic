@@ -1,0 +1,2 @@
+Which are the 2 most important operators that are sufficient to use amongst all 6 relational operators? 
+selection and join
