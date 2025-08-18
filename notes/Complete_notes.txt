@@ -1,6 +1,3 @@
-https://github.com/neelmyna/gsss_sic/blob/main/assignments.txt
-https://github.com/diyaballal/gsss_sic
-*************************************************************************************************
 Day 2:
 OPERATORS:
 + - * / ^ %
@@ -10,21 +7,21 @@ all operators are binary operators
 
 
 BITS & BYTES:
-binary:01 --> 0*2^1 + 1*2^2
-octal:0-7 --> 0o77: 7*8^1 +  7*8^0
-hexadecimal:10-15:a-f
+Binary:01 --> 0*2^1 + 1*2^2
+Octal:0-7 --> 0o77: 7*8^1 +  7*8^0
+Hexadecimal:10-15:a-f
 +ve,-ve,floating no.s are stored in different ways
 When there are 2 no.s float and integer, it converts integer no. into float not the other way around: 5+6.055  -> 5.0+6.055
-4-5%7
-4+8+9
-expressions are read from L->R but:
-these are evaluated only after converting user given infix notation expression into postfix expression
+4 - 5 % 7
+4 + 8 + 9
+Expressions are read from L->R but:
+These are evaluated only after converting user given infix notation expression into postfix expression.
 
 
 RELATIONAL OPERATORS:
 < > <= >= != ==
 Higher precedance than logical op but lesser than arithematic.
-for loops <= and >= are better options
+for loops <= and >= are better options.
 
 
 LOGICAL OPERATORS:
@@ -32,7 +29,7 @@ LOGICAL OPERATORS:
 and or not (python)
 i/p: boolean
 o/p:boolean
-higher precedance than assignment op
+Higher precedance than assignment op.
 
 *********************************************************************
 
@@ -47,7 +44,7 @@ print(sys.argv[0]) -->prints the 1st element
 print(sys.argv[1]) -->prints the 2nd element 
 
 RANGE:
-range(10) : start from 0 upto 9
+range(10) : start from 0 upto 9 (increment of +1 by default)
 range(2,10): start from 2 (user given start) upto 9( one before 10)
 range(2,10,3): start from 2 (user given start) upto 9( one before 10) and increment of 3
 range(90,10,-4): start from 90 (user given start) upto 9( one before 10) and increment of -4(or decrement od +4)
@@ -60,7 +57,7 @@ IBM,micro,cisco: C,C++
 
 functions called via an object --> method 
 functions called alone --> functions
-map: access all elements one by one 
+Map: access all elements one by one 
 numbers=list(map(int,sys.argv[1:])) --> other than d 2nd element the rest of the list is being taken as int. 
 										and next it is mapped i.e every element accessed once. 
 										Finally converted into list form.
@@ -69,27 +66,21 @@ import pymysql:
 run mysql queries through python
 
 EXCEPTION:
-Instruction is trying to run but cannot
-In memory an object of that particular exception class is created. and the ref value address is thrown, if nobody catches this:
+Instruction is trying to run but cannot.
+In memory an object of that particular exception class is created. And the ref value address is thrown, if nobody catches this:
 pvm:python virtual machine: stops execution and simply displays the stack trace.
 
-0:48,9:57
-
 Two type of except statements:
-specialised except blocks: except ValueError, except TypeError
-generic except block: except: ... --> except any type of errors 
-All errors are child of Errros. Therefore inheritance concept. parent:except; child: except TypeError
+Specialised except blocks: except ValueError, except TypeError
+Generic except block: except: ... --> except any type of errors 
+All specialised errors are child of generic errrors. Therefore inheritance concept. parent:except; child: except TypeError.
 
 
-Keywords in EH:
+Keywords in exception handling:
 tryingexcept
 throws
 raise 
 classes:exception,valueerror,typeerror
 
+*********************************************************************
 
-
-
-
-
-**********************************************************************

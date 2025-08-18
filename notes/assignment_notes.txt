@@ -1,0 +1,82 @@
+ASSIGNMENT CODE KEY POINTS:
+
+[1] Check if a number is Perfect Square:
+You have to first import math 
+Use math.isqrt(num).
+You tell the program a number.
+It tries to see if that number can be made by multiplying a number with itself.
+If yes ->Perfect square!
+
+********************************************************
+
+[2] Check if a year is Leap year:
+If the year is divisible by 400 ->leap year 
+Else if the year is divisible by 4 but not divisible by 100 -> leap year 
+Note: paranthesis in if statement are not important because python automatically considers the and before or. But use it because its better for human understanding.
+
+********************************************************
+
+[3] Pascal triangle:
+i) print(" " * (n - i), end="") :
+Before printing numbers, we put spaces so the row is centered.
+
+ii) num = 1 :
+Every row in Pascal’s triangle starts with the number 1.
+
+iii) for j in range(i + 1) :
+This loop walks through each position in the row.
+
+iv) num = num * (i - j) // (j + 1) :
+Take the current number
+Multiply it by the “how many steps left”
+Divide it by “how many numbers we’ve already printed”
+This gives the next number without recalculating everything.
+
+**********************************************************
+
+[4] Numbers:
+   def is_composite(n):
+    if n < 4:  # 0,1,2,3 are not composite
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return True
+    return False
+
+--> Is this digit a composite number?
+If yes -> return True 
+If not -> return False 
+
+***********************************************************
+
+[5] X Shape:
+j == i or j == n - i - 1
+
+***********************************************************
+
+[6] Hollow square:
+if i == 0 or i == n - 1 or j == 0 or j == n - 1 
+
+***********************************************************
+
+[7]Rhombus:
+print(" "  * ( n - i - 1 ) + "*" * n )
+
+***********************************************************
+
+
+
+QUESTION & ANSWERS:
+Q1. How floating point numbers are stored using IEEE standards ?
+A: Defines a format for representing real numbers using bits
+This format divides a fixed number of bits into three components: a sign bit, an exponent, and a mantissa
+
+Q2. Which are the 2 most important operators that are sufficient to use amongst all 6 relational operators? 
+A: Selection and join
+
+
+
+ 
+
+
+
