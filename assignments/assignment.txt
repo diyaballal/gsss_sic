@@ -43,3 +43,10 @@ Q5. Can we modify a list that is inside a tuple ?
 Q6. How to pass command line arguement into my_range() function
 Q7. Why do we need the file name in argv? What is its purpose and use ?
 Q8. Why in python there is no implicit typecasting?
+
+*******************************************************
+
+DAY4:
+Questions:
+Q1. What are the good and bad examples of wher elists are used.
+Q2. Learn about the various list methods.

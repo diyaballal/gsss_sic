@@ -83,4 +83,114 @@ raise
 classes:exception,valueerror,typeerror
 
 *********************************************************************
+DAY4:
+
+FUNCTIONS:
+A non dafult arguement cannot be followed after a default arguement.
+Constant value is also called as a literal.
+
+In how many different ways the below function can called?
+
+def my_function(num1 = 100, num2 = 400):
+    return num1 - num2
+
+print(my_function(None, 20))
+print(my_function(None, None))
+print(my_function(20, None))
+my_function(10, 20)
+my_function(10)
+my_function()
+my_function(num1 = 25)
+my_function(None, 20)
+my_function(num2 = 25)
+my_function(num2 = 25, num1 = 99)
+my_function(num1 = 25, num2 = 99)
+
+
+LIST:
+What: A colletion of items(data)
+Stored: All items are stored in contigious memory locations. i.e if you take any 2 consecutive elements, then there will not be any gap between them.
+Type: Need not be of the same type in python.
+
+What is Data Structure?
+Arrangement of data in a specific way without any ambiguity.
+
+In Unary : * : Valueat or Dereferencing operator
+n[0] --> *(n+0) where n is the address  and 0 is the element . Therefore:
+adress + element = address.
+adress - element = address.
+address - address= number. --> index valuees of all the elements thats between those two addresses.
+						   --> These addresses have to be of the same array.
+These are the only 3 arithematic address operators.	
+
+The lookup of an array: accessing any element in the list/array is 1 unit time.
+Therefore efficiency of accessing an element in array is O(1)
+
+*In other languages:* size of array is fixed which leads to wastage/shortage of memory. Therfore an array is time efficient but not in space.
+Memory is allocated in run time for all but how much memory allocated is decided in the run time is called dynamic memory allocation.
+
+C++:														Java:															Python:		
+Allocation: float *numbers=new float[size]; 				Allocation: float[] numbers= new float[size]					Allocation: Automatic
+Deallocation: delete()										Deallocation: Automatic(garbagecollector)						Deallocation:Automatic
+
+Alternate of array: Linked list
+There will never be a wastage of memory in Linked list because the memory allocated will be very specific to the elements.
+
+Accessers (get): Function that acceses values of variables. 
+Setters (set): Sets the values 
+
+
+OOPS:
+CREATE OBJECTS:
+Account* account = new Account(); --> C++
+Account account = new Account(); --> Java
+account = Account() --> Python
+
+Encapsulation and Abstraction go hand-in-hand.
+
+Class: Solution for an entity.
+
+Inheritance:
+Child class has all the properties of parent class + its own properties.
+
+Polymorphism:
+One problem, multiple solutions.
+
+Deep copy: Creating a duplicte copy of the existing list
+Shallow copy: Copying only the address of the existing list
+
+Types of list  methods:
+1. Create + initialising:
+	list()
+2. append()
+	Adding an element to the end of the list
+3. pop()
+	Deleting the element from the last and returning that element.
+4.insert()
+	Inserting at a specific index
+5.remove()
+	Delete a specific element from the list.If exists more than once, it will remove the first occuring one.
+6.sort()
+	list1.sort()==> Sorts in ascending order
+7.reverse()
+	list1.sort(reverse=True)==> sorts in decending order
+8.extend()
+	Basically the elements get added into another list. Ex: list1=[1,2] list2=[3,4], list1.extend(list2)==> [1,2,3,4] whereas: list1.append(list2)==> [1,2[3,4]]
+9.sorted()
+	list2=sorted(list1) ==> When you want another copy of list1 but in ascended order. This is also a deepcopy of list1 named as list2.
+10. clear()
+	Deletes all elements in the list but the list will still exist.
+11. eq()
+	checks whether 2 lists are equal
+12. sizeof()
+	To check the size of list
+13. str()
+	To convert the list as a string. value=list1.__str__()
+14. len()
+	Length of the number of elements. value=list1.__len__()
+15.count()
+	list1.count(13) ==> shows the no. of times 13 has been repeated in the list.
+16. index()
+	list1.index(5) ==> Shows the value of that particular index element 
+
 
