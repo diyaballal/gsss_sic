@@ -50,3 +50,11 @@ DAY4:
 Questions:
 Q1. What are the good and bad examples of wher elists are used.
 Q2. Learn about the various list methods.
+
+****************************************************
+
+Day 5:
+Q1. Implement a function find which mimics find method of strings.
+Q2. Why does the output show 0 when empty string is to be found in the string.
+
+

@@ -1,0 +1,100 @@
+Q:Accept a no. from the user and find the next possible smallest no. which is bigger than the given no. having all the digitsof the given no.
+Ex: 67598 --> 67859
+Ex: 94562 --> 94625
+Ex:4516 --> 4561
+
+LOGIC 1:
+67598:
+last_element=8
+9>8 True
+5>9 False : swap(5 and 8): 67895
+order ascending :67859
+
+4516:
+last_element=6
+1>6 False : swap 1 and 6 :4561
+no ordering.
+
+LOGIC 2:
+67598:
+9>8 -->true 
+5< 9/8 ? --> true
+so swap with 5 and 8 --> 67895
+order  ==> 67859
+
+18392:
+9>2 --> true
+3<9/2: --> true 
+swap 3 and 9 --> 18932
+order: 18923
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

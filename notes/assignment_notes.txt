@@ -69,7 +69,7 @@ print(" "  * ( n - i - 1 ) + "*" * n )
 QUESTION & ANSWERS:
 Q1. How floating point numbers are stored using IEEE standards ?
 A: Defines a format for representing real numbers using bits
-This format divides a fixed number of bits into three components: a sign bit, an exponent, and a mantissa
+   This format divides a fixed number of bits into three components: a sign bit, an exponent, and a mantissa
 
 Q2. Which are the 2 most important operators that are sufficient to use amongst all 6 relational operators? 
 A: Selection and join

@@ -1,0 +1,48 @@
+Take a 4 digit no. where a no. can repeat twice
+Digits Put it in decreasing order.
+Digits put it in increasing order
+Take the difference
+Assume the differnce you got as the initial number considered.
+Repeat recursively
+
+4551:
+5541
+1455
+4086
+
+4086:
+8640
+0468
+8172
+
+8172:
+8721
+1278
+7443
+
+7443:
+7443
+3447
+3996
+
+3996:
+9963
+3699
+6264
+
+6264:
+6642
+2466
+4176
+
+4176:
+7641
+1467
+6174
+
+6174:
+7641
+1467
+6174
+
+Therefore 6174 repeats again and again ->Kaprekar's Constant
