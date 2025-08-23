@@ -362,3 +362,44 @@ Such a function is called recursive function and such a call statement is called
 Avoid recursion when we can easily solve the problem iteratively.
 
 *********************************************************************************
+
+DAY 7:
+
+DATABASE:
+
+delete:
+deletes specific rows 
+but when inserted new it skips that row id and goes to next
+
+truncates:
+All rows get deleted, autoinc doesnt work anymore so if you want to add another row it starts from 1.
+
+drop table:
+data,autoinc,metadata all goes. 
+
+**********************************************************************************
+
+DAY 8:
+Low cohesion(One function, one job) --> Highly coupled(One change affects others.)
+High cohesion(One function multiple jobs.)--> Loosely coupled(One change doesnt affect the others)
+
+SERVER PROGRAMMING:
+get(id)--> search
+put(id)--> insert
+delete(id)--> delete
+post(id)--> update
+
+Flask and Thunder Client.
+
+Employee flask modifications:
+Person:
+    id, name, gender, age, location
+
+Flight:
+    id, airline, source, destination, fare, duration
+
+Book:
+    id, title, author, price, publisher, edition, number_of_pages.
+
+
+**************************************************************************
